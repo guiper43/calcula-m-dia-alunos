@@ -11,9 +11,9 @@ var  nota4=parseFloat(document.getElementById("nota4").value);
 if(media ==10){
    alert(" aluno gabaritou");
 }else if(media >=7){
-   alert(" aluno aprovado");
+   alert(" aluno aprovado com nota:"+media);
 }else {
-   alert(" aluno foi reprovado");
+   alert(" aluno foi reprovado com nnota:"+media);
 }
 
 
